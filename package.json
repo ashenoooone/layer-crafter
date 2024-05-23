@@ -1,0 +1,43 @@
+{
+  "name": "layer-crafter",
+  "version": "1.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "module": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "bin": {
+    "crafter": "build/cli.js"
+  },
+  "scripts": {
+    "pub": "tsc && npm version patch && npm publish",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashenoooone/layer-crafter"
+  },
+  "bugs": {
+    "url": "https://github.com/ashenoooone/layer-crafter/issues"
+  },
+  "keywords": [
+    "fsd",
+    "autogen",
+    "fsd-autogen",
+    "layers",
+    "layers-autogen"
+  ],
+  "author": "Roman Gontar",
+  "license": "MIT",
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
