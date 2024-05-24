@@ -12,8 +12,8 @@
     "crafter": "build/cli.js"
   },
   "scripts": {
-    "pub": "npm version patch && npm publish",
-    "build": "rollup -c"
+    "pub": "tsc && npm version patch && npm publish",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
