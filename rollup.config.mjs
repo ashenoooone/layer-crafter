@@ -9,7 +9,6 @@ export default {
     {
       file: "build/cli.js",
       format: "cjs",
-      sourcemap: true,
       banner: "#!/usr/bin/env node\n",
     },
   ],
