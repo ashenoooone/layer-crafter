@@ -32,7 +32,10 @@ program
   )
   .addArgument(new Argument("name", "The name of the layer").argRequired())
   .addOption(
-    new Option("casing", "Casing type (e.g., 'pascal', 'snake', 'kebab')")
+    new Option(
+      "-c, --casing <casing>",
+      "Casing type (e.g., 'pascal', 'snake', 'kebab')"
+    )
       .default("kebab")
       .choices(["pascal", "snake", "kebab"])
   )
