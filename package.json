@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/cli.js",
   "types": "build/index.d.ts",
-  "module": "build/cli.js",
+  "module": "build/cli.mjs",
   "files": [
     "build"
   ],
