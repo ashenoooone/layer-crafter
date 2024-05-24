@@ -2,9 +2,9 @@
   "name": "layer-crafter",
   "version": "1.0.6",
   "description": "",
-  "main": "build/index.js",
+  "main": "build/cli.js",
   "types": "build/index.d.ts",
-  "module": "build/index.js",
+  "module": "build/cli.js",
   "files": [
     "build"
   ],
